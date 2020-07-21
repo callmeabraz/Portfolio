@@ -1,0 +1,176 @@
+/*-----------------FONTS-----------------*/
+
+@font-face {
+  font-family: MarkPro;
+  src: url(/assets/Fonts/MarkPro.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProBold.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProHeavy.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProMedium.ttf) format("truetype");
+}
+
+/*---------x-------FONTS-------*---------*/
+
+/*-----------------GLOBAL-----------------*/
+
+* {
+  font-family: "MarkPro", "Helvetica", sans-serif;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------x--------------------------x------*/
+
+/*-----------------NAV---------------------*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.navwrapper {
+  display: flex;
+}
+
+.navDivider {
+  width: 2px;
+  height: 20px;
+  background: #a9a9a9;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-size: 18px;
+}
+
+/*----------x-------NAV-------------x--------*/
+
+/*-----------------ABOUT ME---------------------*/
+
+.sub-heading {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.para {
+  color: #626161;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/*---------x--------ABOUT ME------------x---------*/
+
+/*-----------------WORK---------------------*/
+
+.projectMain {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.projectImageHolder {
+  height: 200px;
+  background: #c4c4c4;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.projectLinks {
+  text-decoration: none;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+/*-------x----------WORK-------------x--------*/
+
+/*-----------------SKILLS--------------------*/
+
+.skillsHoldingDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.singleSkillDiv {
+  display: flex;
+  margin-top: 15px;
+}
+
+.singleSkillDiv > p {
+  margin-left: 10px;
+}
+
+.singleSkillDiv > svg > path {
+  fill: #a9a9a9;
+}
+
+/*----------x-------SKILLS----------x----------*/
+
+/*------------------CONTACT--------------------*/
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+
+/*----------x---------CONTACT---------x------------*/
+
+/*------------------FOOTER-------------------*/
+
+footer {
+  margin-bottom: 100px;
+}
+
+.footerInfo {
+  background: linear-gradient(180deg, #fccfde 0%, #ff0057 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerdivider {
+  height: 2px;
+  background: #a9a9a9;
+  margin-bottom: 30px;
+}
