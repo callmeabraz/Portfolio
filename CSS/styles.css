@@ -66,6 +66,8 @@ nav {
   text-decoration: none;
   color: #a9a9a9;
   font-size: 18px;
+  font-family: Mark Pro;
+  font-style: normal;
 }
 
 /*----------x-------NAV-------------x--------*/
@@ -129,6 +131,8 @@ nav {
 
 .singleSkillDiv > p {
   margin-left: 10px;
+  font-family: Mark Pro;
+  font-style: normal;
 }
 
 .singleSkillDiv > svg > path {
