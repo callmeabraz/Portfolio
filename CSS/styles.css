@@ -101,6 +101,11 @@ nav {
     transform: none;
     color: #a9a9a9;
   }
+  
+  .heroImageClass{
+    width: 100%;
+  }
+  
 }
 
 /*----------x-------NAV-------------x--------*/
