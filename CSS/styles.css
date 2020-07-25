@@ -34,6 +34,16 @@ p {
   margin-right: auto;
 }
 
+@media screen and (max-width: 589px){
+  body{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .wrapper{
+    width: auto;
+  }
+}
+
 /*---------x--------------------------x------*/
 
 /*-----------------NAV---------------------*/
@@ -76,6 +86,21 @@ nav {
 .navlinks:hover {
   color: black;
   transform: translateY(-5px);
+}
+
+@media screen and (max-width: 589px){
+  .n3{
+    display: none;
+  }
+
+  .navlinks{
+    transition: none;
+  }
+
+  .navlinks:hover{
+    transform: none;
+    color: #a9a9a9;
+  }
 }
 
 /*----------x-------NAV-------------x--------*/
@@ -147,6 +172,18 @@ nav {
   fill: #a9a9a9;
 }
 
+@media screen and (max-width: 589px){
+  .skillsHoldingDiv{
+    display: block;
+  }
+
+  .softwareSkills{
+    margin-top: 50px;
+  }
+}
+
+/*----------x-------SKILLS----------x----------*/
+
 .socialLinks{
   transition: 0.3s ease-in-out;
   display: block;
@@ -205,7 +242,7 @@ nav {
   fill: black;
 }
 
-/*----------x-------SKILLS----------x----------*/
+
 
 /*------------------CONTACT--------------------*/
 
