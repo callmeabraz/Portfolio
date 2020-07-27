@@ -16,8 +16,8 @@
 /*-----------------GLOBAL-----------------*/
 
 * {
-  /*font-family: "MarkPro", "Helvetica", sans-serif;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: "MarkPro", sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   -webkit-appearance: none !important;
   border-radius: 0;
 }
@@ -59,7 +59,7 @@ nav {
 }
 
 .navLogo {
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -81,7 +81,7 @@ nav {
   text-decoration: none;
   color: #a9a9a9;
   font-size: 18px;
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
   display: block;
   transition: all 0.4s ease-in-out;
@@ -92,11 +92,13 @@ nav {
   transform: translateY(-5px);
 }
 
-@media screen and (max-width: 589px){
-  .n3{
-    display: none;
-  }
+.n3{
+  display: none;
+}
 
+
+@media screen and (max-width: 589px){
+  
   .navlinks{
     transition: none;
     font-size: 16px;
@@ -118,7 +120,7 @@ nav {
 /*-----------------ABOUT ME---------------------*/
 
 .sub-heading {
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -126,7 +128,7 @@ nav {
 
 .para {
   color: #626161;
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -143,7 +145,6 @@ nav {
 
 .projectImageHolder {
   height: 200px;
-  background: #c4c4c4;
   border-radius: 5px;
 
   margin-bottom: 10px;
@@ -156,6 +157,17 @@ nav {
   font-weight: 500;
   font-size: 18px;
   color: black;
+}
+
+@media screen and (max-width: 589px) {
+  .projectImages{
+    width: 100%;
+    height: auto;
+  }
+
+  .projectImageHolder{
+    height: auto;
+  }
 }
 
 /*-------x----------WORK-------------x--------*/
@@ -193,6 +205,8 @@ nav {
 }
 
 /*----------x-------SKILLS----------x----------*/
+
+/*------------------CONTACT--------------------*/
 
 .socialLinks{
   transition: 0.3s ease-in-out;
@@ -252,10 +266,6 @@ nav {
   fill: black;
 }
 
-
-
-/*------------------CONTACT--------------------*/
-
 .socialMediaIcons {
   display: flex;
   justify-content: space-between;
@@ -308,6 +318,10 @@ nav {
     font-size: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  .socialLinks{
+    transform: scale(0.8);
   }
 }
 /*----------x---------CONTACT---------x------------*/
