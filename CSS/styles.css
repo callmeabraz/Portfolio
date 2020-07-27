@@ -151,7 +151,7 @@ nav {
 
 .projectLinks {
   text-decoration: none;
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -181,11 +181,12 @@ nav {
 .singleSkillDiv {
   display: flex;
   margin-top: 15px;
+  
 }
 
 .singleSkillDiv > p {
   margin-left: 10px;
-  /*font-family: Mark Pro;*/
+  font-family: Mark Pro;
   font-style: normal;
 }
 
@@ -299,6 +300,7 @@ nav {
   transition: all 0.6s ease-in-out;
   text-decoration: none;
   border-radius: 5px;
+  font-family: Mark Pro;
 
   color: #A9A9A9;
   font-size: 24px;
