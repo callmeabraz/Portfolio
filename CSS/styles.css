@@ -2,14 +2,13 @@
 
 @font-face {
   font-family: MarkPro;
-  src: url(../Assets/Fonts/MarkPro.ttf) format("truetype"),
-    url(../Assets/Fonts/MarkProBold.ttf) format("truetype"),
-    url(../Assets/Fonts/MarkProHeavy.ttf) format("truetype"),
-    url(../Assets/Fonts/MarkProMedium.ttf) format("truetype");
+  src: url(../Assets/Fonts/MarkPro.ttf);
+  src: url(../Assets/Fonts/MarkProBold.ttf);
+  src: url(../Assets/Fonts/MarkProHeavy.ttf);
+  src: url(../Assets/Fonts/MarkProMedium.ttf);
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300&display=swap");
 
 /*---------x-------FONTS-------*---------*/
 
@@ -38,12 +37,12 @@ p {
   margin-right: auto;
 }
 
-@media screen and (max-width: 589px){
-  body{
+@media screen and (max-width: 589px) {
+  body {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .wrapper{
+  .wrapper {
     width: auto;
   }
 }
@@ -92,27 +91,24 @@ nav {
   transform: translateY(-5px);
 }
 
-.n3{
+.n3 {
   display: none;
 }
 
-
-@media screen and (max-width: 589px){
-  
-  .navlinks{
+@media screen and (max-width: 589px) {
+  .navlinks {
     transition: none;
     font-size: 16px;
   }
 
-  .navlinks:hover{
+  .navlinks:hover {
     transform: none;
     color: #a9a9a9;
   }
 
-  .heroImageClass{
+  .heroImageClass {
     width: 100%;
   }
-  
 }
 
 /*----------x-------NAV-------------x--------*/
@@ -160,12 +156,12 @@ nav {
 }
 
 @media screen and (max-width: 589px) {
-  .projectImages{
+  .projectImages {
     width: 100%;
     height: auto;
   }
 
-  .projectImageHolder{
+  .projectImageHolder {
     height: auto;
   }
 }
@@ -182,7 +178,6 @@ nav {
 .singleSkillDiv {
   display: flex;
   margin-top: 15px;
-  
 }
 
 .singleSkillDiv > p {
@@ -195,12 +190,12 @@ nav {
   fill: #a9a9a9;
 }
 
-@media screen and (max-width: 589px){
-  .skillsHoldingDiv{
+@media screen and (max-width: 589px) {
+  .skillsHoldingDiv {
     display: block;
   }
 
-  .softwareSkills{
+  .softwareSkills {
     margin-top: 50px;
   }
 }
@@ -209,61 +204,61 @@ nav {
 
 /*------------------CONTACT--------------------*/
 
-.socialLinks{
+.socialLinks {
   transition: 0.3s ease-in-out;
   display: block;
 }
 
-.socialLinks:hover{
+.socialLinks:hover {
   transform: translateY(-10px) scale(1.05);
 }
 
- /*TWITTER*/
+/*TWITTER*/
 
-.sl-twitter svg path{
+.sl-twitter svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-twitter:hover svg path{
-  fill: #2DAAE1;
+.sl-twitter:hover svg path {
+  fill: #2daae1;
 }
 
 /*LINKEDIN*/
-.sl-linkedin svg path{
+.sl-linkedin svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-linkedin:hover svg path{
-  fill: #3276B0;
+.sl-linkedin:hover svg path {
+  fill: #3276b0;
 }
 
 /*INSTAGRAM*/
-.sl-instagram svg path{
+.sl-instagram svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-instagram:hover svg path{
+.sl-instagram:hover svg path {
   fill: #cc2366;
 }
 
 /*BEHANCE*/
-.sl-behance svg path{
+.sl-behance svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-behance:hover svg path{
-  fill: #205BF6;
+.sl-behance:hover svg path {
+  fill: #205bf6;
 }
 
 /*DRIBBBLE*/
-.sl-dribbble svg path{
+.sl-dribbble svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-dribbble:hover svg path{
-  fill: #ED6598;
+.sl-dribbble:hover svg path {
+  fill: #ed6598;
 }
 
 /*GITHUB*/
-.sl-github svg path{
+.sl-github svg path {
   transition: 0.4s ease-in-out;
 }
-.sl-github:hover svg path{
+.sl-github:hover svg path {
   fill: black;
 }
 
@@ -276,23 +271,23 @@ nav {
   margin-bottom: 50px;
 }
 
-.button-holding-div{
+.button-holding-div {
   display: flex;
   justify-content: center;
   transition: all 0.4s ease-in-out;
 }
 
-.button-holding-div:hover{
+.button-holding-div:hover {
   transform: translateY(-5px);
 }
 
-.button-outlined-div{
+.button-outlined-div {
   margin-top: 72px;
   margin-bottom: 72px;
 }
 
-.button-outlined{
-  border: 1px solid #A9A9A9;
+.button-outlined {
+  border: 1px solid #a9a9a9;
   box-sizing: border-box;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -303,26 +298,26 @@ nav {
   border-radius: 5px;
   font-family: Mark Pro;
 
-  color: #A9A9A9;
+  color: #a9a9a9;
   font-size: 24px;
 }
 
-.button-outlined:hover{
-  background-color: #A9A9A9;
+.button-outlined:hover {
+  background-color: #a9a9a9;
   color: white;
   font-weight: 400;
   cursor: pointer;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 589px){
-  .button-outlined{
+@media screen and (max-width: 589px) {
+  .button-outlined {
     font-size: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  .socialLinks{
+  .socialLinks {
     transform: scale(0.8);
   }
 }
