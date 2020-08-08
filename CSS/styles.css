@@ -2,10 +2,10 @@
 
 @font-face {
   font-family: MarkPro;
-  src: url(/assets/Fonts/MarkPro.ttf) format("truetype"),
-    url(/assets/Fonts/MarkProBold.ttf) format("truetype"),
-    url(/assets/Fonts/MarkProHeavy.ttf) format("truetype"),
-    url(/assets/Fonts/MarkProMedium.ttf) format("truetype");
+  src: url(../Assets/Fonts/MarkPro.ttf) format("truetype"),
+    url(../Assets/Fonts/MarkProBold.ttf) format("truetype"),
+    url(../Assets/Fonts/MarkProHeavy.ttf) format("truetype"),
+    url(../Assets/Fonts/MarkProMedium.ttf) format("truetype");
 }
 
 
