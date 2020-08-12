@@ -154,6 +154,21 @@ nav {
   color: black;
 }
 
+.project-type{
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 5px;
+  color: white;
+  background-color: #F91C5E;
+  width: fit-content;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.vd{
+  background-color: #0587FF;
+}
+
 @media screen and (max-width: 589px) {
   .projectImages {
     width: 100%;
