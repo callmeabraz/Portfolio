@@ -154,6 +154,11 @@ nav {
   color: black;
 }
 
+.projectLinks:hover{
+  color: #F91C5E;
+  font-weight: 600;
+}
+
 .project-type{
   font-size: 12px;
   font-weight: bolder;
